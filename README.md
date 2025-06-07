@@ -1,18 +1,41 @@
-## Getting Started
+# 🛒 E-commerce Management System
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+## 📌 Project Overview
 
-## Folder Structure
+The **E-commerce Management System** is a Java-based application designed to streamline the buying and selling process. It supports three primary user roles: **Admin**, **Supplier**, and **Customer**, each with specific capabilities. The system is backed by a **MySQL** database to manage users, products, orders, and more.
 
-The workspace contains two folders by default, where:
+---
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+## ⚙️ Tech Stack
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+- **Language:** Java  
+- **Database:** MySQL  
+- **IDE Used:** Eclipse / IntelliJ IDEA (Recommended)  
+- **Build Tool:** JDBC (Java Database Connectivity)  
+- **UI:** Console-based (can be extended to GUI or web)
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+---
 
-## Dependency Management
+## 👥 User Roles and Functionalities
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+### 🔑 1. Admin
+- Login with admin credentials
+- Manage suppliers and customers (Add/Remove/View)
+- Manage all products
+- View all orders
+
+### 📦 2. Supplier
+- Login with supplier credentials
+- Add new products
+- Update or remove products
+- View order requests from customers
+- Manage stock levels
+
+### 🛍️ 3. Customer
+- Register and log in
+- Browse products by category
+- Search for specific items
+- Add products to cart
+- Place orders
+- View order history
+- Update personal details
